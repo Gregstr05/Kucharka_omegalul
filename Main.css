@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap');
+
+* {
+    background-color: #2b2a33;
+    color: hsl(0, 0%, 85%);
+    font-family: Open Sans, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*body {
+    background-color: #212121;
+}*/
+
+@media print {
+    .noPrint{
+      display:none;
+    }
+    p {
+        font-size: 100%;
+    }
+    .printable {
+        font-size: 69%;
+    }
+    .disclaimer {
+        display: none;
+    }
+
+  }
+
+p {
+    font-size: 125%;
+}
+
+/*header {
+    background-color: #212121;
+    margin-left: 20px;
+}*/
+
+.footer {
+    color: gray;
+    font-size: 100%;
+    text-align: center;
+}
+
+.name {
+    display: flexbox;
+}
+
+button {
+    background-color: #212121;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 250%;
+    border-bottom: 3px solid #00000078;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+}
+
+/*#logo {
+    width: 5%;
+}*/
+
+.BW {
+    filter: grayscale(69);
+}
+
+.clean_link {
+    text-decoration: none;
+    color: hsl(0, 0%, 85%);
+}
+
+.recept_link {
+    text-decoration: underline #292929;
+    color: hsl(0, 0%, 85%);
+}
+
+.nav-header {
+    list-style-type: none;
+    font-size: 150%;
+    font-family: Open Sans, sans-serif;
+    padding-left: 0px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+
+.nav-header-item {
+    padding-right: 2.69%;
+    margin-left: 0px;
+}
+
+.nav-header-item :hover {
+    font-size: 102%;
+    padding-right: 2.6%;
+    text-decoration: underline;
+}
+
+table {
+    font-size: 125%;
+    margin: 5px;
+    border-spacing: 5px;
+}
+
+.surovina {
+    text-align: left;
+}
+
+.ammount {
+    text-align: right;
+}
+
+.pfp {
+    width: 50%;
+    margin-left: 2px;
+}
+
+.caption {
+    margin-top: 2px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.postup {
+    font-size: 125%;
+}
+
+
+.center {
+    /*center an elemnet*/
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.home_head {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.abrev {
+
+}
+
+/*center item in a table*/
+
+
+.Home {
+    filter: drop-shadow(20px 15px 10px #17161b);
+    padding-right: 50%;
+    /*border: 1px solid #17161b;*/
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+}

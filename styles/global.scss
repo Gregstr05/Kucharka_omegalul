@@ -1,0 +1,12 @@
+body {
+    &.home {
+        background: #ebebeb;
+    }
+    #app {
+        font-family: 'Spartan', sans-serif;   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+}
