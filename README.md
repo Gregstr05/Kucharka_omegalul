@@ -1,0 +1,1 @@
+# Kucharka_omegalul
