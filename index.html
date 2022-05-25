@@ -48,30 +48,31 @@
             </table>
             </a>
 
-        <p id=vapp">Goodbye World: {{ display }}</p>
-
-        <div id="VueApp">
-            <recepty-template class="bulky"/>
-        </div>
-
-        <div id="app">
-        </div>
-
     </main>
 
     <footer>
+        <div class="footer-flexbox">
+        <!--Create a centered flexbox-->
+        <div class="flexbox">
+            <div class="flexbox-item">
+                <h3 class="footer-heading">Kuchařka polopatě</h3>
+                <p class="flexbox-links">
+                    <a class="footer" href="index.html">Domů</a>
+                    <a class="footer" href="recepty.html">Recepty</a>
+                    <a class="footer" href="informace.html">Informace</a>
+                </p>
+            </div>
+            <div class="flexbox-item">
+                <h3 class="footer-heading">Kuchařka polopatě</h3>
+                <p class="flexbox-links">
+                    <a class="footer" href="index.html">Domů</a>
+                    <a class="footer" href="recepty.html">Recepty</a>
+                    <a class="footer"href="informace.html">Informace</a>
+                </p>
+            </div>
         <p class="footer">&copy;2022 Adam Gregořica</p>
+        </div>
     </footer>
-
-
-    <script>
-        const vueApp = new Vue({
-            el: '#vapp',
-            data: {
-                display: 'redbox'
-            }
-        })
-    </scrip>
 
 </body>
 </html>

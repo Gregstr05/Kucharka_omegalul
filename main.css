@@ -40,6 +40,7 @@ p {
     color: gray;
     font-size: 100%;
     text-align: center;
+    text-decoration: none;
 }
 
 .name {
@@ -158,9 +159,52 @@ table {
 
 
 .Home {
-    filter: drop-shadow(20px 15px 10px #17161b);
+    filter: drop-shadow(0px 5px 10px #17161b);
     padding-right: 50%;
     /*border: 1px solid #17161b;*/
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 20px;
+}
+
+/*Create a centered flexbox with items underneath each other without headings*/
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*align components in footer underneath each other
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.footer-flexbox{
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-heading {
+    color: gray;
+    font-size: 115%;
+    text-align: center;
 }
