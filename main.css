@@ -160,10 +160,11 @@ table {
 
 .Home {
     filter: drop-shadow(0px 5px 10px #17161b);
-    padding-right: 50%;
+    /*padding-right: 50%;*/
     /*border: 1px solid #17161b;*/
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 20px;
+    width: 100%;
 }
 
 /*Create a centered flexbox with items underneath each other without headings*/
@@ -198,7 +199,7 @@ footer{
 
 .footer-flexbox{
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -207,4 +208,39 @@ footer{
     color: gray;
     font-size: 115%;
     text-align: center;
+}
+
+.images {
+    padding-top: 3px;
+    padding-left: 0px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px 0 0 20px;
+    width: 250px;
+}
+
+.home_link {
+    text-decoration: none;
+}
+
+hr {
+    color: #00000078;
+    margin: 0px;
+}
+
+.show_more {
+    background-image: linear-gradient(to bottom, #2b2a33, #212121);
+    text-align: center;
+    margin: 0px;
+}
+
+.show_more_button {
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.show_more_link {
+    text-decoration: none;
+    margin: 0px;
+    background-color: #21212100;
 }
