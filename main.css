@@ -231,6 +231,8 @@ hr {
     background-image: linear-gradient(to bottom, #2b2a33, #212121);
     text-align: center;
     margin: 0px;
+    padding-top: 15px;
+    border-radius: 25px 25px 0 0;
 }
 
 .show_more_button {
@@ -243,4 +245,17 @@ hr {
     text-decoration: none;
     margin: 0px;
     background-color: #21212100;
+}
+
+.home_title {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+.informace_img {
+    filter: grayscale(69);
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px
 }
