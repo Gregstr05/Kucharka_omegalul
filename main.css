@@ -266,10 +266,10 @@ hr {
     justify-content: left;
     align-items: left;
 }
-
+/*
 #print_button {
     width: 256px;
-}
+}*/
 
 .img_recept {
     border: 1px solid rgba(255, 255, 255, 0);
