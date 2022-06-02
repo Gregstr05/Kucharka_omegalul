@@ -116,12 +116,12 @@ h2 {
 
 .clean_link {
     text-decoration: none;
-    color: hsl(0, 0%, 85%);
+    color: #E0E1DD;
 }
 
 .recept_link {
     text-decoration: underline #292929;
-    color: hsl(0, 0%, 85%);
+    color: #E0E1DD;
 }
 
 .nav-header {
