@@ -317,3 +317,46 @@ hr {
     border-radius: 20px;
 
 }
+
+nav a {
+    text-decoration: none;
+    color: #E0E1DD;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #E0E1DD;
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: #E0E1DD;
+}
+
+nav li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+nav li ul {
+    display: none;
+    position: relative;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul ul {
+    display: none;
+    width: 150px;
+}

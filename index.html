@@ -16,11 +16,19 @@
             <h1><a class="clean_link" href="index.html">Kuchařka polopatě</a></h1>
 
         <div class="header_flex">
+        <nav>
         <ul class="nav-header">
             <li class="nav-header-item"><a class="clean_link" href="index.html">Domů</a></li>
-            <li class="nav-header-item"><a class="clean_link" href="recepty.html">Recepty</a></li>
+            <li class="nav-header-item"><a class="clean_link" href="index.html/#recepty">Recepty</a>
+            <ul>
+                <li><a href="recepty/bulky.html">Bulky</a></li>
+                <li><a href="recepty/cookies.html">Cookies</a></li>
+                <li><a href="recepty.html">Další recepty</a></li>
+            </ul>
+            </li>
             <li class="nav-header-item"><a class="clean_link" href="informace.html">Informace</a></li>
         </ul>
+        </nav>
         <label class="container">
         <input type="checkbox" id="Dark_Theme" name="Dark_Theme" value="Dark">
         <span class="checkmark"></span>
@@ -50,7 +58,7 @@
         <hr>
     </div>
 
-    <h2 class="home_title">Recepty</h2>
+    <h2 id="recepty" class="home_title">Recepty</h2>
         <a class="home_link" href="recepty/cookies.html">
         <!--html table with 3 rows and 2 collums-->
         <table class="Home">
