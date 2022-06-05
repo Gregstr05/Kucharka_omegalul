@@ -8,15 +8,32 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-        <header>
-            <!--<img id="logo" alt="miska a metlička" src="img/whisk-and-bowl-svgrepo-com.svg">-->
-            <h1><a class="clean_link" href="index.html">Kuchařka polopatě</a></h1>
-        <ul class="nav-header">
-            <li class="nav-header-item"><a class="clean_link" href="index.html">Domů</a></li>
-            <li class="nav-header-item"><a class="clean_link" href="recepty.html">Recepty</a></li>
-            <li class="nav-header-item"><a class="clean_link" href="informace.html">Informace</a></li>
+    <header>
+        <!--<img id="logo" alt="miska a metlička" src="img/whisk-and-bowl-svgrepo-com.svg">-->
+        <h1><a class="clean_link" href="index.html">Kuchařka polopatě</a></h1>
+
+    <div class="header_flex">
+    <nav>
+    <ul class="nav-header">
+        <li class="nav-header-item"><a class="clean_link" href="index.html">Domů</a></li>
+        <li class="nav-header-item"><a class="clean_link" href="index.html#recepty">Recepty</a>
+        <ul>
+            <li><a href="recepty/bulky.html">Bulky</a></li>
+            <li><a href="recepty/cookies.html">Cookies</a></li>
+            <li><a href="recepty.html">Další recepty</a></li>
         </ul>
-    </header>
+        </li>
+        <li class="nav-header-item"><a class="clean_link" href="informace.html">Informace</a></li>
+    </ul>
+    </nav>
+    <label class="container">
+    <input type="checkbox" id="Dark_Theme" name="Dark_Theme" value="Dark">
+    <span class="checkmark"></span>
+    <script src="index.js"></script>
+    </label>
+    </div>
+    <hr>
+</header>
 
     <main>
         <a class="home_link" href="recepty/cookies.html">
@@ -48,7 +65,20 @@
 
 
     <footer>
+        <div class="footer-flexbox">
+        <!--Create a centered flexbox-->
+        <div class="flexbox">
+            <div class="flexbox-item">
+                <h3 class="footer-heading">Kuchařka polopatě</h3>
+                <p class="flexbox-links">
+                    <a class="footer" href="index.html">Domů</a>
+                    <a class="footer" href="recepty.html">Recepty</a>
+                    <a class="footer" href="informace.html">Informace</a>
+                </p>
+            </div>
         <p class="footer">&copy;2022 Adam Gregořica</p>
+        </div>
+        </div>
     </footer>
 
 </body>
