@@ -390,3 +390,13 @@ nav ul ul {
     border-radius: 25px;
     border: 1px solid rgba(255, 255, 255, 0);
 }
+
+#cookie {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 25px;
+}
+
+#bulka {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 25px;
+}
