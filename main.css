@@ -10,6 +10,10 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 /*body {
     background-color: #212121;
 }*/
@@ -372,4 +376,17 @@ nav ul ul {
 .info{
     display: flex;
     margin-top: 36px;
+}
+
+.galerie-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.galerie-container img {
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0);
 }

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snažíme se vařit xd</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/styles/lightbox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vuex" crossorigin="anonymous"></script>
+    <link rel="icon" href="/img/favicon.ico">
 </head>
 <body>
     <header>
@@ -16,7 +20,7 @@
     <nav>
     <ul class="nav-header">
         <li class="nav-header-item"><a class="clean_link" href="index.html">Domů</a></li>
-        <li class="nav-header-item"><a class="clean_link" href="/index.html#recepty">Recepty</a>
+        <li class="nav-header-item"><a class="clean_link" href="index.html#recepty">Recepty</a>
         <ul>
             <li><a href="recepty/bulky.html">Bulky</a></li>
             <li><a href="recepty/cookies.html">Cookies</a></li>
@@ -36,38 +40,17 @@
     <hr>
 </header>
 
+<main>
+    <!--
+    <a href="/img/bulky.png" data-lightbox="galerie" data-title="Bulky">Bulky</a>
+    -->
+    <div class="galerie-container">
+        <a href="/img/bulky.png"><img src="/img/bulky.png" alt="bulky" height="365px"></a>
+        <a href="/img/cookie.jpg"><img src="/img/cookie.jpg" alt="cookie" height="365px"></a>
+        <a href="/img/pfp_2.png"><img src="/img/pfp_2.png" alt="autor" height="365px"></a>
+    </div>
+</main>
 
-    <main class="info">
-
-        <div class="pfp">
-        <img class="BW" alt="Adam" src="img/pfp_2.png" width="99%">
-        <p class="caption">Šéfredaktor Adam le Bol</p>
-        </div>
-
-        <div class="about">
-        <h2>Informace</h2>
-        <p>
-
-        </p>
-        </div>
-    </main>
-
-    <footer>
-        <div class="footer-flexbox">
-        <!--Create a centered flexbox-->
-        <div class="flexbox">
-            <div class="flexbox-item">
-                <h3 class="footer-heading">Kuchařka polopatě</h3>
-                <p class="flexbox-links">
-                    <a class="footer" href="index.html">Domů</a>
-                    <a class="footer" href="recepty.html">Recepty</a>
-                    <a class="footer" href="informace.html">Informace</a>
-                </p>
-            </div>
-        <p class="footer">&copy;2022 Adam Gregořica</p>
-        </div>
-        </div>
-    </footer>
-
+<script src="lightbox-plus-jquery.js"></script>
 </body>
 </html>
